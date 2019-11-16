@@ -1,0 +1,138 @@
+/* Write some CSS below */
+
+
+body{
+   font-family: 'Cormorant Garamond', serif;}
+
+h1, h2, p {
+  color: rgb(5,5,5);
+}
+
+footer {
+  color: #404042;
+
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+ 
+}
+.container h2 {	
+ font-weight: bold;}
+
+
+.banner{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url("images/background.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 150px 0;
+
+}
+
+.banner h1{	
+	color: white;
+	font-size: 45px
+	margin:0;
+}
+
+.banner p{
+	color:white;
+	opacity: 0.8;
+}
+
+.banner footer{
+	color: white;
+    font-size: 24px;
+}
+
+body {
+  margin: 0;
+}
+
+.btn-mint {
+	background-color: #E82746;
+	color:white;
+	border-radius: 4px;
+	padding: 16px 48px;
+  	display: inline-block;
+  	text-decoration: none;
+  	transition: .3s;
+}
+
+.btn-mint:hover{	
+	background-color: #B62744;
+	color:white;}
+}
+
+.card {
+  background: white;
+  box-shadow: 2px 3px 20px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  width: 250px;
+  text-align: center;
+  padding: 24px;
+  margin: 16px auto;
+  flex-grow: 1;
+}
+
+.card img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+
+
+.footer {
+  background: rgba(23, 104, 84,0.5);
+  text-align: center;
+  margin:70px auto;
+  padding: 8px 0;
+}
+
+.footer footer {
+  color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
